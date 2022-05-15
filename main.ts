@@ -13,7 +13,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 4) {
         Kitronik_Robotics_Board.motorOn(Kitronik_Robotics_Board.Motors.Motor1, Kitronik_Robotics_Board.MotorDirection.Forward, speed)
     }
-    // DRS - if button is turned on motor 2 will turn for a second turned off it will go back to its original position
+    // DRS - if button is turned on motor 4 will turn for a second, when turned off it will go back to its original position
     if (receivedNumber == 5) {
         Kitronik_Robotics_Board.motorOn(Kitronik_Robotics_Board.Motors.Motor4, Kitronik_Robotics_Board.MotorDirection.Forward, 0)
     }

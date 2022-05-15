@@ -2,9 +2,11 @@ radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 1) {
         Kitronik_Robotics_Board.motorOn(Kitronik_Robotics_Board.Motors.Motor1, Kitronik_Robotics_Board.MotorDirection.Forward, speed)
     }
+    // steering
     if (receivedNumber == 2) {
         servos.P0.setAngle(90)
     }
+    // steering
     if (receivedNumber == 3) {
         servos.P0.setAngle(90)
     }

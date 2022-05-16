@@ -41,6 +41,5 @@ basic.pause(10)
 pins.digitalWritePin(DigitalPin.P14, 1)
 basic.forever(function () {
     radio.setGroup(80)
-    basic.showNumber(131852)
     speed = 0
 })
